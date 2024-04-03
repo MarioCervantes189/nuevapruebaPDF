@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Descargas disco D\\jar_files\\apiguardian-api-1.1.2.jar",
+        "d:\\Descargas disco D\\jar_files\\commons-logging-1.2.jar",
+        "d:\\Descargas disco D\\jar_files\\fontbox-3.0.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-jupiter-5.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-jupiter-api-5.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-jupiter-engine-5.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-jupiter-params-5.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-platform-commons-1.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\junit-platform-engine-1.10.1.jar",
+        "d:\\Descargas disco D\\jar_files\\opentest4j-1.3.0.jar",
+        "d:\\Descargas disco D\\jar_files\\pdfbox-3.0.1.jar",
+        "d:\\Descargas disco D\\jar_files\\pdfbox-io-3.0.1.jar"
+    ]
+}
