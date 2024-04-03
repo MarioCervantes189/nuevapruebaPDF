@@ -14,7 +14,6 @@ class Lineas {
         diccionario = new HashMap<>();
     }
    
-
     public void agregarEscuchador(PropertyChangeListener funcion) {
         support.addPropertyChangeListener(funcion);
     }
@@ -39,14 +38,11 @@ class Lineas {
             listaPaginas += hashPalabras.get(frase).get(i) + ", ";
         }
         try {
-            listaPaginas = listaPaginas.substring(0, listaPaginas.length() - 2); // remover la ultima coma
-            // TODO: handle exception
+            listaPaginas = listaPaginas.substring(0, listaPaginas.length() - 2);
         }catch (Exception e){
             return;
         }
         
-
-
         String lineaNueva = ""+frase+" ["+listaPaginas+"]";
         lineas.add(index, lineaNueva);
     }
